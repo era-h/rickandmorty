@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { CharModel } from '../models/charModel'
 import { EpisodeModel } from '../models/episodeModel'
 import { LocationModel } from '../models/locationModel'
-import CharacterPopUp from './card'
+import CharacterPopUp from './characterPopUp'
 
 interface CharacterCardProps {
     char:CharModel

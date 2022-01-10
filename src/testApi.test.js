@@ -1,6 +1,6 @@
 import {screen, render} from "@testing-library/react"
 import App, {dataApi} from './App';
-import CharacterPopUp from "./components/card";
+import CharacterPopUp from "./components/characterPopUp";
 import {rest} from 'msw';
 import {setupServer} from 'msw/node'
 

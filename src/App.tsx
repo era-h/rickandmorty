@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import CharacterCard from './components/show';
+import CharacterCard from './components/characterCard';
 import { CharModel } from './models/charModel';
 import { EpisodeModel } from './models/episodeModel';
 import { LocationModel } from './models/locationModel';
